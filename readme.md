@@ -122,6 +122,26 @@ Jika agent tidak berfungsi:
 1. Pastikan semua tools yang diperlukan sudah dipilih saat setup
 2. Cek apakah system prompt dan description ter-copy dengan lengkap
 3. Gunakan model Sonnet atau yang lebih baru untuk hasil optimal
+4. Pastikan Claude Code CLI versi terbaru terinstall
+5. Jika error saat generate docs, cek permission folder project
+
+### FAQ
+**Q: Agent tidak merespon keyword?**
+A: Pastikan mengetik keyword persis seperti di list, atau gunakan command `/doc-master`
+
+**Q: Dokumentasi tidak ter-generate?**
+A: Cek apakah agent memiliki permission Write dan Edit
+
+**Q: Bisa untuk project non-Indonesia?**
+A: Bisa, tapi output tetap dalam Bahasa Indonesia
+
+## 🔒 Requirements & Compatibility
+
+- **Claude Code CLI**: v1.0 atau lebih baru
+- **Model**: Claude 3.5 Sonnet (recommended) atau Opus
+- **OS**: macOS, Linux, Windows
+- **Project Types**: Semua bahasa pemrograman dan framework
+- **Output**: Bahasa Indonesia
 
 ## 📝 Catatan
 
@@ -129,6 +149,35 @@ Jika agent tidak berfungsi:
 - File dokumentasi lama akan di-backup sebelum refresh
 - Customization manual akan dipertahankan saat update
 
+## 📄 License & Contribution
+
+Repository ini open source dan gratis untuk digunakan oleh komunitas developer Indonesia.
+
+**Cara Kontribusi:**
+1. Fork repository ini
+2. Buat branch untuk feature/fix Anda
+3. Submit pull request dengan deskripsi jelas
+4. Report issues di: https://github.com/jacobcalvyn/ClaudeCode-agent-doc-master/issues
+
+**License:** MIT License - Bebas digunakan untuk project personal maupun komersial
+
+## 🔄 Version History
+
+- **v1.0.0** (2025-08-02): Initial release
+  - 4 core documentation files
+  - Support untuk major tech stacks
+  - 100% Bahasa Indonesia output
+
+## 🚀 Roadmap
+
+- [ ] Multi-language output support
+- [ ] Custom template configuration
+- [ ] Integration dengan CI/CD
+- [ ] Auto-sync dengan code changes
+- [ ] Export to various formats (PDF, HTML)
+
 ---
 
 Made with ❤️ for Indonesian developers
+
+**Repository**: https://github.com/jacobcalvyn/ClaudeCode-agent-doc-master
